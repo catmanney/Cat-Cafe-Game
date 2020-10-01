@@ -39,7 +39,7 @@ def fetchInput(numIngredients):
         userInputs.append(input(str(i+1)+": ").title().strip()) 
     return userInputs     
 
-# I created this function so the user can press 'enter' to move on to next line. This helps the user know what to focus, and it creates a more interactive experience.
+# I created this function so the user can press 'enter' to move on to next line. This helps the user know what to focus on, and it creates a more interactive experience.
 
 def continue_func():
     cont = input("")
@@ -78,7 +78,7 @@ def coffee():
     for ingredient in coffee_list:
         print(ingredient)
 
-# I've used this little story tidbit to give the user a chance to understand game mechanics more moving to something more difficult. These functions were really troublesome to get right. But I finally got it with some help (and realizing that I made a silly mistake...)
+# I've used this little story tidbit to give the user a chance to understand game mechanics before moving to something more difficult. These functions were really troublesome to get right. But I finally got it with some help (and realizing that I made a silly mistake...)
 
 def water_trial():
     print("Nadia: Pretend I'm a customer. Make me an Ice Water.")
